@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>min and max</title>
+</head>
+<body>
+<script type="text/javascript">
+	var num =[11,70,12,1,9];
+	var max = num[0];
+	var min = num[4]
+	for (var i =1; i<num.length; i++) 
+        if (num[i]> max)
+         {
+		max = num[i];
+	     }
+
+	for (var j=3;j>=0;j--)
+		if (num[j] < min) 
+		{
+            min= num[j];
+		}
+	alert("max and min number is " + max +" & " + min);
+
+</script>
+
+</body>
+</html>
